@@ -1,0 +1,22 @@
+error:
+
+
+
+-0.0 kE (5328) task_wdt: Task watchdog got triggered. The following tasks did not reset the watchdog in time:
+E (5328) task_wdt:  - IDLE0 (CPU 0)
+E (5328) task_wdt: Tasks currently running:
+E (5328) task_wdt: CPU 0: Task1
+E (5328) task_wdt: CPU 1: Task2
+E (5328) task_wdt: Aborting.
+abortGuru Meditation Error: Core  0 panic'ed (Interrupt wdt timeout on CPU0)
+Core 0 register dump:
+PC      : 0x4000921a  PS      : 0x00060034  A0      : 0x80007d16  A1      : 0x3ffbe0a0  
+A2      : 0x00800000  A3      : 0x3ff4001c  A4      : 0x8012701d  A5      : 0x3ffd7d80  
+A6      : 0x3ffcbba0  A7      : 0x00000000  A8      : 0x3ff40000  A9      : 0x00000028  
+A10     : 0x00800000  A11     : 0x3ff4001c  A12     : 0x800885bc  A13     : 0x3ffd7d60  
+A14     : 0x00000000  A15     : 0x00000000  SAR     : 0x00000004  EXCCAUSE: 0x00000005  
+EXCVADDR: 0x00000000  LBEG    : 0x00000000  LEND    : 0x00000000  LCOUNT  : 0x00000000  
+Core 0 was running in ISR context:
+EPC1    : 0x4000bff0  EPC2    : 0x00000000  EPC3    : 0x00000000  EPC4    : 0x4000921a
+
+Backtrace: 0x4000921a:0x3ffbe0a0 0x40007d13:0x3ffbe0c0 0x40007c69:0x3ffbe0e0 0x40008148:0x3ffbe100 0x4008c654:0x3ffbe190 0x400d576f:0x3ffbe1b0 ⸮⸮⸮⸮⸮1⸮B⸮B⸮⸮⸮⸮爦L!

@@ -1,0 +1,45 @@
+/*void setup() {
+  // put your setup code here, to run once:
+  pinMode(17, OUTPUT);
+  digitalWrite(17, HIGH);
+}*/
+
+/*int pierwsza = 10;
+int druga = 20;
+int liczba = 0;
+void loop() {
+  // put your main code here, to run repeatedly:
+  digitalWrite(17, LOW);
+  delay(1000);
+  digitalWrite(17, HIGH);/*
+for(int i = 0; i < 100; i++)
+  {
+    for(int j = 0; j < 100; j++)
+    {
+      digitalWrite(18, HIGH);
+    }
+  }
+  
+  for(int i = 0; i < 1000000; i++)
+  {
+    for(int j = 0; j < 1000000; j++)
+    {
+      for(int k = 0; k < 1000000; k++)
+      {
+        for(int l = 0; l < 1000000; l++)
+        {
+          for(int m = 0; m < 1000000; m++)
+          {
+            liczba = i + j + k + l;
+          }
+        }
+      }
+    }
+  }
+  if(liczba%2) digitalWrite(18, LOW);
+  else digitalWrite(18, HIGH);
+}
+*/
+
+
+/zagadka arduino

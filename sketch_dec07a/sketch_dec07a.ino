@@ -20,7 +20,7 @@ HX711 scale;
 TaskHandle_t Task1;
 TaskHandle_t Task2;
 
-const char* ssid     = "SmietnikowaSiec";
+const char* ssid = "SmietnikowaSiec";
 const char* password = "tobylsmiec";
 
 // Set web server port number: 80
