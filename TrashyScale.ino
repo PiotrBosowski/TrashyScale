@@ -232,7 +232,7 @@ void quicksort(float * table, int left, int right) //zwykly quicksort ktory zlic
     while (table[i] < x) i++;
     while (table[j] > x) j--;
     if (i <= j)
-    {
+    { 
       float temp = table[i];
       table[i] = table[j];
       table[j] = temp;

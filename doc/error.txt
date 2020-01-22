@@ -1,8 +1,4 @@
-error:
-
-
-
--0.0 kE (5328) task_wdt: Task watchdog got triggered. The following tasks did not reset the watchdog in time:
+﻿-0.0 kE (5328) task_wdt: Task watchdog got triggered. The following tasks did not reset the watchdog in time:
 E (5328) task_wdt:  - IDLE0 (CPU 0)
 E (5328) task_wdt: Tasks currently running:
 E (5328) task_wdt: CPU 0: Task1
